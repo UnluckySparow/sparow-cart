@@ -1,0 +1,46 @@
+.Cart{
+    max-width: 1440px;
+    padding: 20px;
+    margin: auto;
+   
+
+    table.table_cart {
+        max-width:800px;
+        margin:15px auto;
+        td{
+          padding:10px;text-align: center;
+        }
+        thead{
+            background:#d30212;
+            td{border:unset;margin:0px;width:25%;color:#fff;font-weight:600;font-weight:bold;}
+        }
+        tbody{
+            td{border:unset;margin:0px;width:25%;}
+            img{max-width: 100px;width: 100%;height: 100px;object-fit: contain;}
+        }
+    }
+    button.fa_trash {
+        border: unset;
+        background: #d30212;
+        color: #fff;
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        transition:all 0.3s ease-in-out;
+        &:hover{
+            opacity:0.8;
+        }
+    }
+}
+
+a.btn_back {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    bottom: 15px;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+}
